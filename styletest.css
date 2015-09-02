@@ -69,7 +69,7 @@
         position: fixed;
         float: left;
         left: auto;
-        top: top auto;
+        top: auto;
         width: 100%;
         z-index: 1000;
     }
@@ -1801,7 +1801,7 @@
     input[type='submit'].filter-btn-mobile {
             -webkit-appearance: none;
             -moz-appearance:    none;
-            appearance:         none; 
+            /*appearance:         none; */
             background: #6DA50C;
             border: 1px solid #569200;
             -moz-box-sizing:    border-box;
@@ -2109,7 +2109,8 @@
             padding: 8px 0 8px 5px;
             width: 200px;
             border: 0 none;
-            filter: alpha(opacity=0);
+            /*filter: alpha(opacity=0);*/
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
             opacity: 0;
             display:inline;
             position:absolute;
@@ -2706,7 +2707,7 @@
     .singin-account-box .singin-account_form input[type='submit'].singin-account_submit {
         -webkit-appearance: none;
         -moz-appearance:    none;
-        appearance:         none; 
+        /*appearance:         none; */
         background-color: #6DA50C;
         border: 1px solid #569200;
         -moz-box-sizing:    border-box;
