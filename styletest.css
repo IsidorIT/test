@@ -1,15 +1,18 @@
-
- *::-moz-focus-inner { 
+/* 
+ *   Author: BestJobs.ro - neogen.biz 
+ */
+    .stop-scroll {
+        max-height: 100%;
+        max-width: 100%;
+        position: fixed;
+    }
+    
+    *::-moz-focus-inner { 
         border: 0; 
     }
 
     *:focus {
         outline: 0 none;
-    }
-    .stop-scroll {
-        max-height: 100%;
-        max-width: 100%;
-        position: fixed;
     }
 
     /*
